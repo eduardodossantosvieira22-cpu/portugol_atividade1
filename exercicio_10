@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+          real comprimento_maraca
+		real largura_maraca
+		real area_maraca, dobro_area, dobro_area_cm
+
+		escreva("Qual a largura do nosso Maraca? (em metros) ")
+		leia(largura_maraca)
+
+		escreva("E o comprimento? (em metros tbm) ")
+		leia(comprimento_maraca)
+
+		escreva("A area do Maracana eh ", comprimento_maraca * largura_maraca, " metros.", "\n")
+
+		escreva("O dobro da area do Maraca eh ", (comprimento_maraca * largura_maraca ) * 2, " metros.", "\n")
+
+		escreva("E o dobro da area do Maracas em centimetros eh ", ((comprimento_maraca * largura_maraca ) * 2) * 100, "cm.")
+       
+	}
+}
