@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia mae = "Tess"
+		cadeia filha = "Ana"
+		cadeia mae_substituta
+
+		mae_substituta = mae
+		mae = filha
+		filha = mae_substituta
+
+		escreva(mae, "\n")
+		escreva(filha)
+	}
+}
