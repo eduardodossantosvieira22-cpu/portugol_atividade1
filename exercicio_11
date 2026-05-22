@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	inteiro peso_maximo = 50
+	inteiro peso_de_peixes
+	inteiro excesso
+	inteiro multa
+
+	escreva("Qunatos quilos de peixe voce pescou? ")
+	leia(peso_de_peixes)
+
+	excesso = peso_de_peixes - peso_maximo
+	multa = excesso * 4.50
+
+	escreva("vome pegou ", peso_de_peixes, " quilos de peixes", "\n")
+
+	se (peso_de_peixes > peso_maximo)
+	escreva("O peso dos peixes passou ", excesso, " quilos do limite", "\n")
+	escreva("E voce tera que pagar ", multa, " reais de multa")
+	
+
+	}
+		
+	
+}
