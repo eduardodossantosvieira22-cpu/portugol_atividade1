@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real centimetros
+		
+		escreva("Quantos centimeros devem ser convertidos? ")
+		leia(centimetros)
+
+		real metros = centimetros / 100
+
+		escreva( centimetros, " centimetros sao ", metros, " metros")
+	}
+}
